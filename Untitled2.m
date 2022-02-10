@@ -15,7 +15,7 @@ h = zeros(M,N);
 for i = 1:M
     for j = 1:N
         d = ((i-m_mid)^2+(j-n_mid)^2);
-        h(i,j) = exp(-(d)/(2*(d0^2)));      
+        h(i,j) = exp(-(d)/(2*(d0^2))); 
     end
 end
 
